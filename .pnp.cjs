@@ -32,6 +32,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["ts-overrides-plugin", "virtual:4d629540902055abaeceac741c993703010c87426c908ca9a34aafd2b6a548ad49e2e1f88b481bd52185b6d1f3cf3d018bc47f40c48df52a36663d912c770195#npm:0.3.7"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -81,13 +82,32 @@ const RAW_RUNTIME_STATE =
           "typescript"\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["virtual:4d629540902055abaeceac741c993703010c87426c908ca9a34aafd2b6a548ad49e2e1f88b481bd52185b6d1f3cf3d018bc47f40c48df52a36663d912c770195#npm:0.3.7", {\
+        "packageLocation": "./.yarn/__virtual__/ts-overrides-plugin-virtual-899d070fce/3/.yarn/berry/cache/ts-overrides-plugin-npm-0.3.7-01aa15c541-10c0.zip/node_modules/ts-overrides-plugin/",\
+        "packageDependencies": [\
+          ["ts-overrides-plugin", "virtual:4d629540902055abaeceac741c993703010c87426c908ca9a34aafd2b6a548ad49e2e1f88b481bd52185b6d1f3cf3d018bc47f40c48df52a36663d912c770195#npm:0.3.7"],\
+          ["@types/ts-patch", null],\
+          ["@types/typescript", null],\
+          ["outmatch", "npm:1.0.0"],\
+          ["ts-patch", null],\
+          ["typescript", null]\
+        ],\
+        "packagePeers": [\
+          "@types/ts-patch",\
+          "@types/typescript",\
+          "ts-patch",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["ts-plugin-webstorm-issue", [\
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["ts-plugin-webstorm-issue", "workspace:."]\
+          ["ts-plugin-webstorm-issue", "workspace:."],\
+          ["ts-overrides-plugin", "virtual:4d629540902055abaeceac741c993703010c87426c908ca9a34aafd2b6a548ad49e2e1f88b481bd52185b6d1f3cf3d018bc47f40c48df52a36663d912c770195#npm:0.3.7"]\
         ],\
         "linkType": "SOFT"\
       }]\

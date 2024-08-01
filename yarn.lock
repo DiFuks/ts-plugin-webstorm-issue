@@ -36,6 +36,8 @@ __metadata:
 "ts-plugin-webstorm-issue@workspace:.":
   version: 0.0.0-use.local
   resolution: "ts-plugin-webstorm-issue@workspace:."
+  dependencies:
+    ts-overrides-plugin: "npm:^0.3.7"
   languageName: unknown
   linkType: soft
 
