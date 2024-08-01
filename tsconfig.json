@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "plugins": [
+      {
+        "name": "ts-overrides-plugin",
+        "overrides": [
+          {
+            "files": [
+              "src/index.ts"
+            ],
+            "compilerOptions": {
+              "strict": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
