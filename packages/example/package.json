@@ -1,13 +1,14 @@
 {
-  "name": "ts-plugin-webstorm-issue",
+  "name": "example",
   "version": "1.0.0",
-  "workspaces": [
-    "packages/*"
-  ],
   "description": "",
   "main": "packages/example/src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "ts-overrides-plugin": "^0.3.7",
+    "typescript": "^5.5.4"
+  }
 }
